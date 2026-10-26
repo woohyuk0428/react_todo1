@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.3.1",
@@ -22,5 +23,6 @@
     "sass": "^1.106.1",
     "typescript": "~6.0.3",
     "vite": "^8.3.4"
-  }
+  },
+  "homepage": "https://whkang0428.github.io/react_todo1"
 }
